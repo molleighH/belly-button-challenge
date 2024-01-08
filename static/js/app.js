@@ -73,7 +73,7 @@ function buildBarChart(sample) {
         };
 
         // Call Plotly to plot BarChart
-        Plotly.newPlot("bar", [BarTrace], layout);
+        Plotly.newPlot("bar", [barTrace], layout);
     });
 };
 
