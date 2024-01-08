@@ -27,14 +27,14 @@ function init() {
         console.log(firstEntry);
 
         // Build initial plots
-        buildBarChart(firstEntry);
-        buildBubbleChart(firstEntry);   
-        buildMetadata(firstEntry);
+        buildbarChart(firstEntry);
+        buildbubbleChart(firstEntry);   
+        buildDemographics(firstEntry);
     });
 };
 
 // Function to build BarChart
-function buildBarChart(sample) {
+function buildbarChart(sample) {
     // Use D3 to retrieve all of data
     d3.json(url).then((data) => {
 
