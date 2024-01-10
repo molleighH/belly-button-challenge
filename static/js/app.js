@@ -135,7 +135,7 @@ function buildDemographics(sample) {
         d3.select('#sample-metadata').text('');
         Object.entries(firstResult).forEach(([key, value]) => {
             console.log(key, value);
-            d3.select('#sample-metadata').append('h3').text(`${key}: ${value}`);
+            d3.select('#sample-metadata').append('h6').text(`${key}: ${value}`);
     });
 
     });
